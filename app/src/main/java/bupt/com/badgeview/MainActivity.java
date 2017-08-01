@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.Random;
 
@@ -15,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button bt = (Button) findViewById(R.id.bt);
-        BadgeView badgeView = new BadgeView(this);
+        final BadgeView badgeView = new BadgeView(this);
         badgeView.setTargetView(findViewById(R.id.rl));
-        badgeView.setBadgeGravity(Gravity.RIGHT | Gravity.CENTER);
+        badgeView.setBadgeGravity(Gravity.LEFT | Gravity.CENTER);
         badgeView.setBadgeMargin(0, 0, 10, 0);
         badgeView.setText("韩维");
         final BadgeView badgeView2 = new BadgeView(this);
@@ -28,10 +29,9 @@ public class MainActivity extends AppCompatActivity {
                 Random r = new Random();
                 int randNum = r.nextInt(1000);//0-1000的随机数
                 badgeView2.setBadgeCount(randNum);
-
+                Toast.makeText(MainActivity.this,""+ badgeView.getText(),Toast.LENGTH_LONG).show();
             }
         });
-
 
     }
 }
