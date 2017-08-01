@@ -28,6 +28,7 @@ bt.setOnClickListener(new View.OnClickListener() {
         Random r=new Random();
         int randNum = r.nextInt(1000);//0-1000的随机数
         badgeView2.setBadgeCount(randNum);
+        //
     }
 });
 
