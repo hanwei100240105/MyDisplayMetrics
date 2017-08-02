@@ -58,6 +58,9 @@ private String TAG="text";
                 //getScreenDensity_ByResources();
                 getScreenDensity_ByWindowManager();
                 getScreenSizeOfDevice();
+
+                new DensityUtil(MainActivity.this).getScreenDensity_ByResources();
+
                 Log.v(TAG,"160dp转px="+ convertDpToPixel(160));
                 Log.v(TAG,"720px转dp="+ convertPixelToDp(720));
                 // Toast.makeText(MainActivity.this,""+ badgeView.getText(),Toast.LENGTH_LONG).show();
@@ -130,7 +133,7 @@ private String TAG="text";
     //dp转成px
     private int convertDpToPixel(int dp) {
         DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
-        return (int)(dp*displayMetrics.density);
+        return (int)(dp*displayMetrics.density+0.5f);
     }
     //px转成dp
     private int convertPixelToDp(int pixel) {
