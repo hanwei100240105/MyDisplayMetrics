@@ -55,7 +55,7 @@ private String TAG="text";
                 //System.out.println("屏幕密度信息为："+dm);
                 System.out.println("First method:"+"Y="+screenWidth+";X="+screenHeight);
               //getDefaultScreenDensity();
-                //getScreenDensity_ByResources();
+                getScreenDensity_ByResources();
                 getScreenDensity_ByWindowManager();
                 getScreenSizeOfDevice();
 
