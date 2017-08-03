@@ -6,11 +6,15 @@
 
  ![image](https://github.com/hanwei100240105/MyDisplayMetrics/blob/master/ScreenShot/shot3.png)
  
+ 把上述变化commit and push到GitHub同步
+ 
  2、在地址栏输入下列地址，进入JitPack网站。
  
   ![image](https://github.com/hanwei100240105/MyDisplayMetrics/blob/master/ScreenShot/shot2.png)
   
-  3、在输入框输入你的github网站地址
+  3、在输入框输入你的github对应你这个项目的网站地址
+  
+  ![image](https://github.com/hanwei100240105/MyDisplayMetrics/blob/master/ScreenShot/shot6.png)
   
   4、点击getit出现下列截图
 ![image](https://github.com/hanwei100240105/MyDisplayMetrics/blob/master/ScreenShot/shot1.png)
