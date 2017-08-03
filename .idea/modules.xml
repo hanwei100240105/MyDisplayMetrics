@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyBadgeView.iml" filepath="$PROJECT_DIR$/MyBadgeView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/badgeview/badgeview.iml" filepath="$PROJECT_DIR$/badgeview/badgeview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybadgeviewLibrary/mybadgeviewLibrary.iml" filepath="$PROJECT_DIR$/mybadgeviewLibrary/mybadgeviewLibrary.iml" />
     </modules>
   </component>
 </project>

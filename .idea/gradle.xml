@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/badgeview" />
+            <option value="$PROJECT_DIR$/mybadgeviewLibrary" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
