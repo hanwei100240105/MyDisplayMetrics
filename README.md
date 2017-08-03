@@ -2,7 +2,7 @@
 自定了一个BadgeView实现了类似于右上角消息提醒的图片.
 如何将写好的自定义控件，上传至Library，然后compile自己的工程中使用。
 
-1、首先在你的项目中新建一个Module，类型选择为Android Library,一步步新建号好以后人，把你写好的view文件放进。如下图所示
+1、首先在你的项目中新建一个Module，类型选择为Android Library,一步步新建好以后，把你写好的view java文件放进。如下图所示
 
  ![image](https://github.com/hanwei100240105/MyDisplayMetrics/blob/master/ScreenShot/shot3.png)
  
