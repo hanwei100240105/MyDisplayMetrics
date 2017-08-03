@@ -22,6 +22,7 @@ import android.widget.TextView;
 public class BadgeView extends TextView {
 
     private boolean mHideOnNull = true;
+///
 
     public BadgeView(Context context) {
         this(context, null);
